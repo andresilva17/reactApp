@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+body, input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.FormularioCa{
+    float: right;
+    text-align: center;
+    width: 100%;
+    background-color: #A9A9A9;
+    margin: -10px 2px;
+    border: 1px solid;
+   
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+    
+}
+.campoDesc{
+    display: inline-block;
+    width: 5%;
+
+ 
+}
+.TopForm{
+    width: 100%;
+    text-align: left;
+    margin-left: 208px;
+}
+.campoDesc1{
+    float: left;
+}
+.campoDesc label{
+    margin-bottom: 1px;
+}
+.campoDesc input{
+
+width: 93%;
+margin-bottom: 0.2em;
+    color: #000 ;
+    display: inline-flex;
+    
+}
+.campo label {
+    margin-bottom: 0.2em;
+    
+    color: #000;
+}
+.StatusFeild label{
+    margin-right: 11px;
+}
+#nomefor
+{
+width: 230px;
+}
+.campotop {
+    margin-right: 5px;
+}
+.campotop input{
+    height: 30px;
+}
+.campotop label {
+    margin-bottom: 0.2em;
+    color: #000;
+    display: block;
+}
+
+fieldset.grupo .campo .campotop {
+    float:  left;
+ 
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 2.5em;
+}
+.grupo{
+    display: inline-flex;
+    margin-right: 200px;
+
+    
+}
+.botao {
+    font-size: 1.5em;
+    background: #F90;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+.grupoData{
+    float:right;
+}
+/*menu previsao*/
+.MenuPrevisao{
+    color: black;
+    position:absolute;
+    float: right;
+    right: 1px;
+    margin-top:  26px;
+    margin-right: 10px;
+    font-size: 24px;
+    width: 8%;
+    display: list-item;
+    text-align: center;
+    list-style: none;
+}
+
+#botaumPrevisao{
+    margin-top: 3px;
+    width: 100%;
+}
+#iconPrevisao{
+    width: 20%;
+float: left;
+margin-top: 5px;
+}

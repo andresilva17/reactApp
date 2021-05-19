@@ -1,0 +1,242 @@
+/* COMANDO DE RESET DA PAG */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, 
+    blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, 
+    img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, 
+    i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, 
+    caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, 
+    embed, figure, figcaption, footer, header, hgroup, menu, nav, output, 
+    ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body{
+height: 100%;
+width: 100%;
+
+background-color: #fcf9f3;
+}
+#contagem li{
+  background-color: black;
+  height: 100000000px;
+}
+#fotoFund{
+float: right;
+position: fixed;
+right: -58px;
+bottom: 1px;
+width: 400px;
+
+}
+#imgl{
+  width: 100%;
+  height:44.8px;
+}
+nav {
+    border-spacing: 5px;
+    width: 100%;
+    position: relative;
+    margin-left: 9px;    
+    background-color: white;
+    
+}
+#menuimg{
+  width: 30%;
+  margin-bottom: 5px;
+  
+}
+.top_bar button:hover{
+  width: 100%;
+  border: 1px solid black;
+  background-color: #363636;
+}
+.menu{
+  margin-top: 10px;
+}
+.top_bar button{
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: 0.5px solid grey;
+  margin-top: 10px;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+}
+.top_bar{
+  background-color: #faf5f1		;
+  width: 200px;
+  height: 100%;
+  float: left;
+  position: fixed;
+  border-right: 1px solid grey;
+  /* max-height: 1500px; */
+
+}
+.listagem{
+  float: right;
+  position: relative;
+margin-right: 300px;
+
+width: 500px;
+}
+.Cabecalho h1{
+  font-size:1.7em;
+  position: relative;
+  text-align:center;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  margin-left: 200px;
+  background-color:  #1269bb;
+ height: 70px;
+  margin-bottom: 11px;
+  width: 100%;
+  float: right;
+}
+.Cabecalho img{
+  width: 200px;
+  float: right;
+  opacity: 0.2;
+  top: 2px;
+  position: absolute;
+}
+.rodape{
+text-align: center;
+bottom: 100%;
+}
+#butaumBusca{
+  width: 30px;
+  height: 36px;
+  background-color:transparent;
+  border: none ;
+  
+}
+
+.listagem li {
+  list-style-type: none;
+  border: 1px solid #55b2e4;
+  padding: 1em;
+}
+section{
+  text-align: center;
+}
+/* input de pesquisa */
+.divBusca{
+  background-color:white ;
+    /* width: 400px; */
+    height: 37px;
+    position: relative;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 186px;
+    margin-left: 310px;
+    top: 5px;
+    
+}
+.Contador{
+  list-style-type: none;
+  float: left;
+  margin-left: 11px;
+  margin-top: 14px;
+  
+}
+#ContadorBut{
+  border: 3px solid green;
+  background-color: #3CB371	;
+  
+}
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:138px;
+ 
+}
+#btnBusca{
+  border: none;
+  float: right;
+  height: 26px;
+  border-radius: 0 7px 7px 0;
+  width: 71px;
+  font-weight: bold;
+  background: transparent;
+  top: 8px;
+  right: -10px;
+  position: absolute;
+}
+.barraPesquisa{
+  position:static ;
+  background-color: #4682B4;
+  width: 512px;
+  margin-left: 435px;
+  height: 53px;
+  
+}
+#txtBusca textarea:focus, input:focus, select:focus {
+  outline: 0;
+}
+.PaginacaoNumb li{
+  margin-top: 1px;
+border: none;
+}
+.ContainerPag{
+right: 100px;
+}
+.pagination button:hover{
+ font-size: 15px;
+}
+.pagination {
+  position: absolute;
+  display: flex;
+  margin-right: 100px;
+  list-style: none;
+  left: -110px;
+}
+.pagination li + li {
+  margin-left: 1px;
+}
+
+.pagination__item--active {
+ 
+  font-weight: bold;
+  border: 1px solid rgb(4, 72, 124);
+}
+
+.pagination__item--active:focus {
+  outline: none;
+ 
+}
+#topTable{
+  width: 100% ;
+
+  text-align:  center;
+    
+
+}
+#topTable th{
+  width: 24%;
+margin: 2px;
+}
+#topTable th{
+margin-left: 11px;
+}
+.Table1{
+  width: 102.4%;
+  background-color: transparent;
+  text-align: center;
+  padding: 0 11px;
+}
+.Table1 tr{
+  border: 1px solid grey;
+}
+.Table1 th{
+  
+ 
+  padding: 11px;
+}
